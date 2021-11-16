@@ -1,0 +1,47 @@
+.card {
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.12), 0 5px 10px rgba(0,0,0,0.24);
+    margin: 0.5rem; 
+    height: 8rem;
+    width: 13rem;
+    font-family: 'Permanent Marker', cursive;
+    flex-direction: column;
+    display: flex;
+    justify-content: top;
+    text-align: left;
+    border-radius: 0.5rem;
+  }
+  
+  .card-container{
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  
+  .card-title {
+    color: #2c2c2c;
+    font-size: 1.1rem;
+    padding: .5rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .card-content {
+    color: #4c4c4c;
+    font-size: 0.9rem;
+    padding: .5rem;
+    align-self: center;
+    height: 8rem;
+    width: 13rem;
+  }
+
+  .true{
+    background: green;
+  }
+
+  .false{
+    background: red;
+  }
